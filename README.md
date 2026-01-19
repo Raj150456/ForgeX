@@ -1,59 +1,114 @@
 # ForgeX
 
-Live Demo: https://forge-x-pi.vercel.app/
+**Live Demo:** [https://forge-x-pi.vercel.app/](https://forge-x-pi.vercel.app/)
 
-Project Title
-ForgeX — a small frontend learning project built with TypeScript and CSS.
+## Overview
 
-Overview
-- Learning goal: Learn TypeScript for building frontend UI, practice component/code structure, and deploy a static site.
-- What it does: A UI-focused web project (pages/components and interactions). It is a student project used to practice TypeScript and frontend layout.
+**ForgeX** is a frontend learning project developed as part of my exploration of **TypeScript-based UI development**.
+The primary goal of this project was to understand how TypeScript can be used to structure frontend logic, manage interactions, and build a clean, responsive user interface, while also learning how to deploy a static web application.
 
-Key Features
-- Interactive frontend components written in TypeScript
-- Responsive layout styled with CSS
-- Simple client‑side interactions for learning DOM + TS patterns
-- Deployed to Vercel for a live demo
+This project is **student-level and learning-focused**, with emphasis on experimentation, iteration, and understanding the codebase rather than building a production system.
 
-Tech Stack (only what exists in the repo)
-- TypeScript
-- CSS
-- Static hosting (Vercel for deployment)
+## Development Approach (Transparency Note)
 
-Live Demo
-- https://forge-x-pi.vercel.app/ — (deployed on Vercel)
+ForgeX was developed using **AI-assisted coding** as a learning accelerator (vibe-coding using *Google Antigravity*).
+I was responsible for:
 
-How to run locally
-1. Clone the repo:
+* Defining the project idea and scope
+* Deciding UI structure and features
+* Guiding and refining AI-generated code
+* Debugging issues and making corrections
+* Testing functionality locally
+* Deploying the application on Vercel
+
+AI tools were used as **development assistants**, not as a replacement for understanding the code.
+
+
+## Key Features
+
+* Interactive frontend components written in TypeScript
+* Responsive layout styled using plain CSS
+* Simple client-side interactions to practice DOM manipulation and TypeScript patterns
+* Live deployment using Vercel for easy access and testing
+
+
+## Tech Stack
+
+* **TypeScript**
+* **CSS**
+* **Vercel** (for static deployment)
+
+
+## Live Demo
+
+🔗 [https://forge-x-pi.vercel.app/](https://forge-x-pi.vercel.app/)
+
+The project is deployed using **Vercel**, allowing the application to be accessed and tested live without local setup.
+
+
+## How to Run Locally
+
+1. Clone the repository:
+
+   ```bash
    git clone https://github.com/Raj150456/ForgeX.git
-2. Install dependencies:
-   - If the repo uses npm/yarn, run:
-     npm install
-     # or
-     yarn
-3. Start the dev server:
-   - Check package.json for the exact script, commonly:
-     npm run dev
-     # or
-     npm start
-4. Open the URL shown by the dev server (often http://localhost:3000 or http://localhost:5173).
+   ```
 
-If the project is a plain static TypeScript build without a dev server, you can build and preview:
-- npm run build
-- Serve the dist directory (e.g., with a static server)
+2. Navigate to the project directory:
 
-What I learned
-- Basic TypeScript setup and using typed code for frontend behavior
-- How to structure a small frontend project and separate styling
-- How to deploy a static frontend to Vercel and verify the live URL
-- How to document the project so others can run it
+   ```bash
+   cd ForgeX
+   ```
 
-Future improvements
-- Add short README-run scripts (exact npm scripts) and a CONTRIBUTING note
-- Add screenshots or a short video/GIF showing the main interactions
-- Add tests for critical UI behaviors (student-level unit/visual tests)
-- Improve accessibility and keyboard navigation for components
+3. Install dependencies (if applicable):
 
-Notes for interview
-- Be ready to explain one component you built and one bug you fixed.
-- Explain what TypeScript feature helped you (types, interfaces, or stricter checks).
+   ```bash
+   npm install
+   # or
+   yarn
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   # or
+   npm start
+   ```
+
+5. Open the URL shown in the terminal
+   (commonly `http://localhost:3000` or `http://localhost:5173`).
+
+If the project is a static TypeScript build:
+
+* Run the build script (if present)
+* Serve the generated output directory using a static server
+
+
+## What I Learned
+
+* Basics of setting up and using **TypeScript** in frontend projects
+* Structuring a small frontend codebase for readability and maintainability
+* Writing typed logic for UI interactions
+* Debugging frontend issues and refining AI-generated code
+* Deploying a static web project using **Vercel**
+* Documenting a project clearly for reviewers and interview discussions
+
+
+## Future Improvements
+
+* Add screenshots or a short demo GIF to visually explain the UI
+* Improve accessibility (keyboard navigation, semantic HTML, contrast)
+* Add clearer run/build scripts in the README
+* Introduce simple tests for core UI behavior
+* Refactor components for better scalability and readability
+
+
+## Notes for Interviews
+
+* Be prepared to explain:
+
+  * One UI component and how it works
+  * One issue encountered during development and how it was fixed
+  * How TypeScript helped improve code clarity or reduce errors
+* Clearly explain how AI tools were used responsibly as part of the learning process
